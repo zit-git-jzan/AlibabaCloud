@@ -2,16 +2,20 @@
 
 terraform {
   required_providers {
-  alicloud = {
+    alicloud = {
       source  = "aliyun/alicloud"
       version = "1.140.0"
-      
+
+    }
+
     random = {
       source  = "hashicorp/random"
       version = "~>3.0"
     }
   }
 }
+
+
 
 provider "alicloud" {
   access_key = var.access_key
