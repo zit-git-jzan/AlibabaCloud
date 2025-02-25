@@ -13,5 +13,5 @@ variable "secret_key" {
 variable "region" {
   type        = string
   description = "Alibaba Cloud Region"
-  default     = "abcd"
+  default     = "eu-central-1"
 }
