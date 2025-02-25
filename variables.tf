@@ -1,13 +1,13 @@
 variable "access_key" {
   type        = string
   description = "Alibaba Cloud Access Key"
-  default     = "123456"
+  default     = "LTAI5tCdKVEB4gvoy5NUVJhY"
 }
 
 variable "secret_key" {
   type        = string
   description = "Alibaba Cloud Secret Key"
-  default     = "abcd"
+  default     = "5a0ygvVSVynmDxIe5gog89SdSnVCbQ"
 }
 
 variable "region" {
